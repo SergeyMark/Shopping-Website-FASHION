@@ -1,0 +1,29 @@
+.btn-sign{
+    font-family: $family-main;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: calc(36 / 24);
+    letter-spacing: -0.03em;
+    
+    color: $color-btn-sign;
+
+    display: block;
+    
+    padding: 13px 22px;
+    margin-left: 54px;
+
+    @include btn-sign($color-white, $bg-color-btn, $color-main, $color-white);
+
+    border-radius: 7px;
+
+    transition: color 250ms linear,
+        background-color 250ms linear,
+        border 250ms linear;
+
+    &:hover,
+    &:focus{
+        color: $color-main;
+        background-color: $color-white;
+        border: 1px solid $color-main;
+    }
+}

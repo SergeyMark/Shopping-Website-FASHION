@@ -1,0 +1,13 @@
+@mixin btn-sign ($color-white, $bg-color-btn ,$color-hover: $color-main, $color-hover-bg: $color-white) {
+    color: $color-white;
+    background: $bg-color-btn;
+    border: 1px solid $color-main;
+
+    &:hover,
+    &:focus{
+        color: $color-hover;
+        background-color: $color-hover-bg;
+        border: 1px solid $color-main;
+    }
+}
+

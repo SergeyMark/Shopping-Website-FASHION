@@ -1,0 +1,23 @@
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+
+    font-family: $family-main;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: calc(60 / 40);
+    letter-spacing: 0.03em;
+    
+    color: $color-main;
+
+    &__icon{
+        fill: currentColor;
+        transition: fill 250ms linear;
+    }
+
+    &:hover .logo__icon,
+    &:focus .logo__icon{
+        color: $color-yellow;
+    }
+}
