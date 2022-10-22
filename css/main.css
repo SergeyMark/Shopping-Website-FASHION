@@ -205,7 +205,7 @@ button {
   transition: fill 250ms linear;
 }
 .logo:hover .logo__icon, .logo:focus .logo__icon {
-  color: #E6C744;
+  fill: #E6C744;
 }
 
 .btn-sign {
