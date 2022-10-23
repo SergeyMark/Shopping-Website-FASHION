@@ -1,5 +1,5 @@
-@mixin btn-sign ($color-white, $bg-color-btn ,$color-hover: $color-main, $color-hover-bg: $color-white) {
-    color: $color-white;
+@mixin btn-sign ($color-btn-sign, $bg-color-btn ,$color-hover: $color-main, $color-hover-bg: $color-white) {
+    color: $color-btn-sign;
     background: $bg-color-btn;
     border: 1px solid $color-main;
 
